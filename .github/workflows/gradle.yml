@@ -21,7 +21,7 @@ jobs:
           java-version: '25'
 
       - name: Extract project
-      run: unzip -q LAYDZR-Plus.zip -d project
+        run: unzip -q LAYDZR-Plus.zip -d project
 
       - name: Fix Loom version
         run: sed -i "s/version '1.17'/version '1.17.21'/" project/LAYDZR-Plus/build.gradle
