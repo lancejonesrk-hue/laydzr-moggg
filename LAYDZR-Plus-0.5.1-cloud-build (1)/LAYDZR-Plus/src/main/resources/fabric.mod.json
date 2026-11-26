@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "laydzr_plus",
+  "version": "${version}",
+  "name": "LAYDZR+",
+  "description": "A Donut SMP market companion with a custom LAYDZR identity.",
+  "authors": [
+    "LAYDZR"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "gg.laydzr.plus.LaydzrPlusClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
